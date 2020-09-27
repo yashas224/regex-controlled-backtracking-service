@@ -39,7 +39,7 @@ All The incoming requests are Asynchronous.
 Default Timeout when using API with controlled Backtracking  = 1sec.
 Two Case of handling regex Expressions:
 
-1- Without controlled Backtracking [ problem that is solved]
+1- Without controlled Backtracking [ problem that exists]
 URI: http://localhost:8080/regex-service/match/match-without-timeout
 Here the service goes through the normal way how a Default Regex Engine of Java 8 works.
 It would hence take a long time in case it finds a need to backtrack to find more matches.
